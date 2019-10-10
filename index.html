@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_4df33fe7114044c99fb53b5b18540676 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_4df33fe7114044c99fb53b5b18540676" ></div>
+        
+</body>
+<script>    
+    
+            var map_4df33fe7114044c99fb53b5b18540676 = L.map(
+                "map_4df33fe7114044c99fb53b5b18540676",
+                {
+                    center: [55.75216, 37.622467],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_001edd5b7d0e4fe5bbc68b594759c410 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_4df33fe7114044c99fb53b5b18540676);
+        
+    
+            var marker_9f3f3872cfc945258cacd12837d2f4a1 = L.marker(
+                [55.754660757023636, 37.621529],
+                {}
+            ).addTo(map_4df33fe7114044c99fb53b5b18540676);
+        
+    
+        var popup_13847288e355485bac31edd4358ae3a7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_333df6bea3ac4d3296e43c8bd8cdc167 = $(`<div id="html_333df6bea3ac4d3296e43c8bd8cdc167" style="width: 100.0%; height: 100.0%;">Bosco Cafe</div>`)[0];
+            popup_13847288e355485bac31edd4358ae3a7.setContent(html_333df6bea3ac4d3296e43c8bd8cdc167);
+        
+
+        marker_9f3f3872cfc945258cacd12837d2f4a1.bindPopup(popup_13847288e355485bac31edd4358ae3a7)
+        ;
+
+        
+    
+    
+            marker_9f3f3872cfc945258cacd12837d2f4a1.bindTooltip(
+                `<div>
+                     0.12270932620299786
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9fdbfad8124848f6bfa23d78edd03fec = L.marker(
+                [55.754660757023636, 37.621529],
+                {}
+            ).addTo(map_4df33fe7114044c99fb53b5b18540676);
+        
+    
+        var popup_558ffe9633e7483ebaef6e5ff82fe2fd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_370056a0739e425f834ec94fc8f620ca = $(`<div id="html_370056a0739e425f834ec94fc8f620ca" style="width: 100.0%; height: 100.0%;">Bosco Bar</div>`)[0];
+            popup_558ffe9633e7483ebaef6e5ff82fe2fd.setContent(html_370056a0739e425f834ec94fc8f620ca);
+        
+
+        marker_9fdbfad8124848f6bfa23d78edd03fec.bindPopup(popup_558ffe9633e7483ebaef6e5ff82fe2fd)
+        ;
+
+        
+    
+    
+            marker_9fdbfad8124848f6bfa23d78edd03fec.bindTooltip(
+                `<div>
+                     0.12270932620299786
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a266193dcddc4e65862a852e8eb6daa5 = L.marker(
+                [55.754660757023636, 37.621529],
+                {}
+            ).addTo(map_4df33fe7114044c99fb53b5b18540676);
+        
+    
+        var popup_ac63eb3603c64373b25b34687985df92 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_23985d2bfa4c422cb2e0b87b63c6a8a3 = $(`<div id="html_23985d2bfa4c422cb2e0b87b63c6a8a3" style="width: 100.0%; height: 100.0%;">Кафе у фонтана</div>`)[0];
+            popup_ac63eb3603c64373b25b34687985df92.setContent(html_23985d2bfa4c422cb2e0b87b63c6a8a3);
+        
+
+        marker_a266193dcddc4e65862a852e8eb6daa5.bindPopup(popup_ac63eb3603c64373b25b34687985df92)
+        ;
+
+        
+    
+    
+            marker_a266193dcddc4e65862a852e8eb6daa5.bindTooltip(
+                `<div>
+                     0.12270932620299786
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e2f471eca016489c934e354ac4a54bec = L.marker(
+                [55.754695803256624, 37.62144865634448],
+                {}
+            ).addTo(map_4df33fe7114044c99fb53b5b18540676);
+        
+    
+        var popup_0f7283a21f1c4773be15eafe9706302b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ae2560de08774bb083f42c0115a66b6a = $(`<div id="html_ae2560de08774bb083f42c0115a66b6a" style="width: 100.0%; height: 100.0%;">ТД ГУМ Кафе фестивальное Бар Кинозал</div>`)[0];
+            popup_0f7283a21f1c4773be15eafe9706302b.setContent(html_ae2560de08774bb083f42c0115a66b6a);
+        
+
+        marker_e2f471eca016489c934e354ac4a54bec.bindPopup(popup_0f7283a21f1c4773be15eafe9706302b)
+        ;
+
+        
+    
+    
+            marker_e2f471eca016489c934e354ac4a54bec.bindTooltip(
+                `<div>
+                     0.12533465228480853
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_94956c8489a74f1796fb557dd6cb3a69 = L.marker(
+                [55.754695803256624, 37.62144865634448],
+                {}
+            ).addTo(map_4df33fe7114044c99fb53b5b18540676);
+        
+    
+        var popup_1ba1effa48044dfe97464bcc2375ebaf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cd237ce4dbd64902a1236fbcabbe099c = $(`<div id="html_cd237ce4dbd64902a1236fbcabbe099c" style="width: 100.0%; height: 100.0%;">ТД ГУМ бар в столовой</div>`)[0];
+            popup_1ba1effa48044dfe97464bcc2375ebaf.setContent(html_cd237ce4dbd64902a1236fbcabbe099c);
+        
+
+        marker_94956c8489a74f1796fb557dd6cb3a69.bindPopup(popup_1ba1effa48044dfe97464bcc2375ebaf)
+        ;
+
+        
+    
+    
+            marker_94956c8489a74f1796fb557dd6cb3a69.bindTooltip(
+                `<div>
+                     0.12533465228480853
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
